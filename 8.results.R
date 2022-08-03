@@ -1,3 +1,5 @@
+setwd('/Users/vyasenov/Library/CloudStorage/OneDrive-Adobe/GitHub/personal/inference-with-lasso')
+
 source('0.data_prep.R')
 source('1.naive.R')
 source('2.single_split.R')

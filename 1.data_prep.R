@@ -1,6 +1,5 @@
 # set up workspace
 rm(list=ls())
-setwd('~/Library/CloudStorage/OneDrive-Adobe/blog/posts/titanic')
 set.seed(1988)
 
 # load libraries
@@ -12,7 +11,7 @@ library(PoSI)
 library(tidyverse)
 
 # load data
-data <- read_csv(file='titanic_dataset.csv')
+data <- read_csv(file='~/Library/CloudStorage/OneDrive-Adobe/blog/posts/titanic_dataset.csv')
 colnames(data) <- tolower(colnames(data))
 
 # clean data
